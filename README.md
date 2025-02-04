@@ -15,5 +15,11 @@ This is my **personal portfolio website**, designed to showcase my **skills, pro
 ## **🛠️ Tech Stack**  
 ✅ **HTML** – For the structure & layout.  
 ✅ **CSS** – For styling & responsiveness.  
-✅ **JavaScript** – For interactive elements & dynamic behavior.  
+✅ **
+
+https://github.com/user-attachments/assets/c9dbae87-3ead-408f-ae40-3b2d35da8156
+
+JavaScript** – For interactive elements & dynamic behavior. 
+
+
 
