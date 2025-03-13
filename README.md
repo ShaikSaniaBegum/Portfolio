@@ -17,7 +17,6 @@ This is my **personal portfolio website**, designed to showcase my **skills, pro
 ✅ **CSS** – For styling & responsiveness.  
 ✅ **
 
-https://github.com/user-attachments/assets/c9dbae87-3ead-408f-ae40-3b2d35da8156
 
 JavaScript** – For interactive elements & dynamic behavior. 
 
