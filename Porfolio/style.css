@@ -166,8 +166,8 @@ footer {
 }
 
 .footer-body{
-    background: white;
-    color: black;
+    background: midnightblue;
+    color: white;
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -178,4 +178,141 @@ footer {
 .footer-body a:hover {
     color: skyblue !important; /* Change this to any color you like */
     transition: color 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+
+.project-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: skyblue;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Underline Effect */
+.project-heading::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: skyblue;
+    margin: 8px auto 0;
+    border-radius: 5px;
+}
+
+/* Project Container */
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ensures only 3 cards per row */
+    gap: 20px; /* Space between cards */
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Project Card Styling */
+/* .project-card {
+    width: 320px;
+    min-width: 320px;
+    background: midnightblue;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-content h3 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+} */
+
+/* Project Card Styling */
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: midnightblue; /* Midnight Blue */
+    border-radius: 15px;
+    width: 200px;  /* Fixed square size */
+    height: 200px; /* Fixed square size */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 6px 20px rgba(0, 191, 255, 0.8);
+    border: 4px solid transparent;
+    text-align: center;
+}
+
+/* Hover Effect - Highlighted Shadow */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px whitesmoke(0, 191, 255, 0.8); /* Skyblue glowing border */
+    border-color: skyblue;
+}
+
+/* Project Title */
+.project-title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/* Project Description */
+.project-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Tech Stack Styling */
+.tech-stack {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+.click-here {
+    font-size: 16px;
+    color: skyblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Resume Button Styling */
+.resume-button {
+    background: skyblue;
+    color: midnightblue;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hover Effect */
+.resume-button:hover {
+    background: midnightblue;
+    color: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.5);
 }
